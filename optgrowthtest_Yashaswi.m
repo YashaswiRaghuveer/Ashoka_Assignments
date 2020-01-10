@@ -28,7 +28,7 @@ cons(find(cons<0)) = NaN;        % replacing c < 0 with Not a Number (NaN)
 util =  log(cons);               % utility matrix
 util(find(isnan(util))) = -inf;  % replacing NaN values with -infinity
 
-%% Value function iteration
+% Value function iteration
 v = zeros(1,ck);          % initial guess
 tol  = 1;                 % tolerance level 'tol'
 iter = 0;                 % this will count the number of iterations
