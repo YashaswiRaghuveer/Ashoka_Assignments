@@ -70,7 +70,7 @@ foo = nightLights.join(districts, on='district')
 
 """
   So the problem over here is that the nightlights dataset has 641 districts whereas the districts
-  dataset that Yashaswi has compiled has 446 districts. Need to figure out how to deal with this
+  dataset that I have compiled has 446 districts. Need to figure out how to deal with this
   situation
 """
 
